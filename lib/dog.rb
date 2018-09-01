@@ -7,5 +7,5 @@ class Dog
   def name
     @name
   end
-  fido = Dog.new
+  fido = Dog.new(name)
 end
