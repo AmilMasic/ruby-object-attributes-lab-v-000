@@ -8,7 +8,7 @@ class Dog
     @this_dog_name = name
   end
   def name
-    @this_dog_name
+    "#{@name}"
   end
   fido = Dog.new("Fido")
   fido.name
