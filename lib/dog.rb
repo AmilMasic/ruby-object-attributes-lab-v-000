@@ -23,3 +23,6 @@ end
 fido = Dog.new
 # binding.pry
 fido.name = "Fido"
+
+snoopy = Dog.new
+snoopy.breed = "Beagle"
