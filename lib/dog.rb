@@ -2,7 +2,7 @@ require "pry"
 class Dog
 
   def initialize(name)
-    name
+    Dog.name
   end
 
   def name=(dogs_name)
