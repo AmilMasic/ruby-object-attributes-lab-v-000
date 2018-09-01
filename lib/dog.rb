@@ -14,6 +14,8 @@ class Dog
     "#{@name}"
   end
 end
-binding.pry
+
 fido = Dog.new("Fido")
+binding.pry
+fido.name
 # fido.name
