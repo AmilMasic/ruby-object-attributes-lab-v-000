@@ -1,9 +1,9 @@
 require "pry"
 class Dog
 
-  def initialize
-    @name
-  end
+  # def initialize
+  #   @name
+  # end
 
   def name=(dogs_name)
     @name = dogs_name
